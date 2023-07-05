@@ -24,7 +24,7 @@ public class To_openFB extends Base_Page
 			{
 				super(driver);
 			}
-		 //utilization
+		 //utilization of methods
 		 public void unData(String un)
 		 {
 			 utf.sendKeys(un);

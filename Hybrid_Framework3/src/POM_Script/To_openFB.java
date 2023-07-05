@@ -10,7 +10,7 @@ import Generic_Script.Base_Page;
 public class To_openFB extends Base_Page
 {
 
-	
+	//declaration
 	@FindBy(xpath="//input[@id='email']")
 		private WebElement utf;
 		 
@@ -19,12 +19,12 @@ public class To_openFB extends Base_Page
 		 
 		 @FindBy(xpath="//button[@value='1']")
 			private WebElement logbtn;
-		 
+		 //initialization
 		 public To_openFB(WebDriver driver) 
 			{
 				super(driver);
 			}
-		 
+		 //utilization
 		 public void unData(String un)
 		 {
 			 utf.sendKeys(un);
